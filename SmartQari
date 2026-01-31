@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>قارئك الذكي – SmartQari</title>
+<style>
+body {
+  font-family: 'Cairo', sans-serif;
+  background:#e0f2ff;
+  direction: rtl;
+  margin: 0;
+  text-align: right;
+}
+
+.header {
+  background: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.school-info p {
+  margin: 2px 0;
+  color: #1a3d7c;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.container {
+  max-width:700px;
+  margin: 50px auto;
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+  text-align: right;
+}
+
+h1 {
+  color:#1a3d7c;
+  text-align: center;
+}
+
+.btn {
+  display:block;
+  padding:16px 40px;
+  background:#4caf50;
+  color:white;
+  font-size:20px;
+  text-decoration:none;
+  border-radius:12px;
+  margin:20px auto;
+  width: fit-content;
+  text-align:center;
+}
+
+.btn:hover {
+  background:#66bb6a;
+}
+
+.instruction {
+  margin-top:10px;
+  color:#333333;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="school-info">
+    <p>المملكة العربية السعودية</p>
+    <p>وزارة التعليم</p>
+    <p>الإدارة العامة للتعليم بمنطقة مكة المكرمة</p>
+    <p>ثانوية السلامة - مسارات</p>
+  </div>
+</div>
+
+<div class="container">
+  <h1>📚 قارئك الذكي – SmartQari</h1>
+
+  <div class="instruction">اضغطي الزر لعرض النصوص:</div>
+  <!-- الزر يفتح صفحة النصوص -->
+  <a class="btn" href="texts.html">🎤 الضغط لعرض النصوص</a>
+</div>
+
+</body>
+</html>
